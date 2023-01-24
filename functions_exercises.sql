@@ -11,7 +11,7 @@ WHERE (first_name = 'Irena'OR first_name = 'Vidya'OR first_name = 'Maya')
   AND (gender = 'M');
 
 
-SELECT concat(first_name, ' ',last_name)
+SELECT concat(first_name, ' ',last_name) as Full_Name
 FROM employees
 WHERE last_name LIKE 'e%'
 ORDER BY emp_no DESC;
