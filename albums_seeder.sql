@@ -48,5 +48,5 @@ VALUES ('Michael Jackson', 'Thriller', 1982, 51.2, 'Pop, post-disco, funk, rock'
        ('Michael Jackson', 'Dangerous', 1991, 17.0, 'New jack swing, R&B and pop'),
        ('The Beatles', 'Abbey Road', 1969, 16.9, 'Rock');
 
-
+select * from albums;
 -- mysql -u codeup_test_user -p < albums_seeder.sql;
